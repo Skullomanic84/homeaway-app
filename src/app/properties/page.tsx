@@ -1,6 +1,6 @@
 function Properties() {
     return (
-      <div>page</div>
+      <div>properties page</div>
     )
   }
   

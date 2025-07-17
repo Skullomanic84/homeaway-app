@@ -1,6 +1,6 @@
 function Bookings() {
   return (
-    <div>page</div>
+    <div>booking page</div>
   )
 }
 

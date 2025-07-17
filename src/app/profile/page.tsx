@@ -1,6 +1,6 @@
 function Profile() {
     return (
-      <div>page</div>
+      <div>profile page</div>
     )
   }
   

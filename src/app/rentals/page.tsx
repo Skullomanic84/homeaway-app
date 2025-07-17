@@ -1,6 +1,6 @@
 function Rentals() {
     return (
-      <div>page</div>
+      <div>rentals page</div>
     )
   }
   
