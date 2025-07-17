@@ -1,7 +1,7 @@
-import NavSearch from "./nav-search"
-import Logo from "./logo"
-import { DarkMode } from "./dark-mode"
-import LinksDropdown from "./links-dropdown"
+import NavSearch from "./nav-search";
+import Logo from "./logo";
+import { DarkMode } from "./dark-mode";
+import LinksDropdown from "./links-dropdown";
 
 function Navbar() {
   return (
@@ -19,4 +19,4 @@ function Navbar() {
   )
 }
 
-export default Navbar
+export default Navbar;

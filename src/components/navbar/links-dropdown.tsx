@@ -2,7 +2,6 @@ import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
-  DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
@@ -12,14 +11,14 @@ import { Button } from "@/components/ui/button";
 import UserIcon from "./user-icon";
 import { LuAlignLeft } from "react-icons/lu";
 import SignoutLink from "./signout-link";
-import { SignedIn, SignedOut, SignInButton, SignOutButton, SignUpButton } from "@clerk/nextjs";
+import { SignedIn, SignedOut, SignInButton, SignUpButton } from "@clerk/nextjs";
 
 
 function LinksDropdown() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="outline" className="flex gap-4 max-w-[200px]">
+        <Button variant="outline" className="flex gap-4 max-w-[120px]">
           <LuAlignLeft className="h-[1.2rem] w-[1.2rem]" />
           <UserIcon />
         </Button>
@@ -46,9 +45,7 @@ function LinksDropdown() {
           ))}
           <DropdownMenuSeparator />
           <DropdownMenuItem>
-            <SignOutButton>
-              <button className="w-full text-left cursor-pointer">Logout</button>
-            </SignOutButton>
+            <SignoutLink />
           </DropdownMenuItem>
         </SignedIn>
       </DropdownMenuContent>

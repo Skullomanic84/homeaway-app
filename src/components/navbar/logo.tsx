@@ -1,4 +1,4 @@
-import Image from "next/image"
+import Image from "next/image";
 
 function Logo() {
   return (
@@ -14,4 +14,4 @@ function Logo() {
   )
 }
 
-export default Logo
+export default Logo;

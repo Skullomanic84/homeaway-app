@@ -1,5 +1,5 @@
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
 
 function NavSearch() {
   return (
@@ -25,4 +25,4 @@ function NavSearch() {
   )
 }
 
-export default NavSearch
+export default NavSearch;

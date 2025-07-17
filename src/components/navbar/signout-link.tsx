@@ -1,7 +1,7 @@
-"use client"
+"use client";
 
-import { SignOutButton } from "@clerk/nextjs"
-import { toast } from "sonner"
+import { SignOutButton } from "@clerk/nextjs";
+import { toast } from "sonner";
 
 
 function SignoutLink() {
@@ -16,4 +16,4 @@ function SignoutLink() {
   )
 }
 
-export default SignoutLink
+export default SignoutLink;

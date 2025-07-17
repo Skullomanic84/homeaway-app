@@ -46,7 +46,7 @@ export default function RootLayout({
           {children}
           </main>
           </ThemeProvider>
-          <Toaster position="bottom-center" />
+          <Toaster position="bottom-right" />
         </body>
       </html>
     </ClerkProvider>
